@@ -17,7 +17,14 @@
 }
 
 .hero h1 {
+  font-family: "Markazi Text", serif;
   font-size: 3rem;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 2rem;
   margin: 0;
 }
 

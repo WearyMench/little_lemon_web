@@ -7,7 +7,7 @@
 }
 
 .specials-header {
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,8 @@
 }
 
 .specials h2 {
-  font-size: 24px;
+  font-family: "Markazi Text", serif;
+  font-size: 2rem;
   color: #333333;
   margin-bottom: 10px;
 }
@@ -50,5 +51,20 @@
 .specials .specials-item img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
+}
+
+.specials .specials-item a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.specials .specials-item a:hover {
+  background-color: #333333;
+  color: #ffffff;
   border-radius: 5px;
 }

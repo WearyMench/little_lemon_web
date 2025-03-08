@@ -1,0 +1,31 @@
+.successful-booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25vh auto;
+  padding: 20px;
+  width: 50%;
+  background-color: #ededed;
+  border: 3px solid #495e57;
+  border-radius: 10px;
+}
+
+.successful-booking h1 {
+  font-size: 2rem;
+  color: #495e57;
+}
+
+.successful-booking a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #495e57;
+  color: #f5f5f5;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.successful-booking a:hover {
+  background-color: #f5f5f5;
+  color: #495e57;
+}

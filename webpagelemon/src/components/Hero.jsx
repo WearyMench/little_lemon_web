@@ -1,6 +1,7 @@
 import React from "react";
 import FoodImage from "../assets/restauranfood.jpg";
 import "../styles/Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,7 +16,9 @@ const Hero = () => {
           in using only the freshest ingredients. Come visit us and taste the
           difference!
         </p>
-        <button>Reserve a Table</button>
+        <Link to="/booking">
+          <button>Reserve a Table</button>
+        </Link>
       </div>
       <img src={FoodImage} alt="A delicious plate of food" />
     </section>

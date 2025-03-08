@@ -35,17 +35,21 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <>
-      <h2>Testimonials</h2>
-      <div className="testimonials">
-        {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="testimonial">
-            <p>Rating: {testimonial.rating} 🌟</p>
-            <img src={testimonial.image} alt={testimonial.name} />
-            <h3>{testimonial.name}</h3>
-            <p>{testimonial.text}</p>
-          </div>
-        ))}
-      </div>
+      <section className="testimonials-container">
+        <div className="section-title">
+          <h2>Testimonials</h2>
+        </div>
+        <div className="testimonials">
+          {testimonials.map((testimonial) => (
+            <div key={testimonial.id} className="testimonial">
+              <img src={testimonial.image} alt={testimonial.name} />
+              <h3>{testimonial.name}</h3>
+              <p>Rating: {testimonial.rating} 🌟</p>
+              <p>{testimonial.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 };
