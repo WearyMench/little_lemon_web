@@ -43,9 +43,11 @@ const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="testimonial">
               <img src={testimonial.image} alt={testimonial.name} />
-              <h3>{testimonial.name}</h3>
-              <p>Rating: {testimonial.rating} 🌟</p>
-              <p>{testimonial.text}</p>
+              <div className="testimonial-info">
+                <h3>{testimonial.name}</h3>
+                <p>Rating: {testimonial.rating} 🌟</p>
+                <p>{testimonial.text}</p>
+              </div>
             </div>
           ))}
         </div>

@@ -77,4 +77,8 @@
   .hero p {
     font-size: 0.8rem;
   }
+
+  .hero button {
+    margin: 1rem auto;
+  }
 }

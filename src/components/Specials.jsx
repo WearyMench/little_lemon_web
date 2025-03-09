@@ -40,11 +40,13 @@ const Specials = () => {
       <ul className="specials-list">
         {specials.map((special) => (
           <li key={special.id} className="specials-item">
-            <img src={special.imageUrl} alt={special.name} />
-            <h3>{special.name}</h3>
-            <p>{special.description}</p>
-            <p>${special.price}</p>
-            <a href="/">Order a delivery </a>
+            <img src={special.imageUrl} alt={special.name} loading="lazy" />
+            <div className="specials-item-info">
+              <h3>{special.name}</h3>
+              <p>{special.description}</p>
+              <p className="price">${special.price}</p>
+              <a href="/">Order a delivery </a>
+            </div>
           </li>
         ))}
       </ul>

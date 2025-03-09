@@ -20,7 +20,7 @@ const Hero = () => {
           <button>Reserve a Table</button>
         </Link>
       </div>
-      <img src={FoodImage} alt="A delicious plate of food" />
+      <img src={FoodImage} alt="A delicious plate of food" loading="lazy" />
     </section>
   );
 };

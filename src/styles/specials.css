@@ -10,15 +10,14 @@
   width: 60%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 .specials h2 {
   font-family: "Markazi Text", serif;
   font-size: 2rem;
   color: #333333;
-  margin-bottom: 10px;
+  margin: 0px;
 }
 
 .specials h3 {
@@ -36,37 +35,48 @@
 .specials .specials-list {
   width: 70%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   margin-top: 20px;
 }
 
 .specials .specials-item {
-  width: 30%;
-  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
   border-radius: 5px;
+  border-top: 1px solid #495e57;
+  margin-bottom: 20px;
+}
+
+.specials .specials-item .specials-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  width: 75%;
+}
+
+.price {
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .specials .specials-item img {
-  width: 100%;
-  height: auto;
+  width: 20%;
+  height: 100%;
   border-radius: 5px;
 }
 
 .specials .specials-item a {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  font-size: 16px;
-  color: #333333;
   text-decoration: none;
+  color: #333333;
 }
 
 .specials .specials-item a:hover {
-  background-color: #333333;
-  color: #ffffff;
-  border-radius: 5px;
+  color: #ff6600;
 }
 
 @media screen and (max-width: 768px) {
@@ -94,9 +104,5 @@
     width: 80%;
     gap: 10px;
     flex-wrap: wrap;
-  }
-
-  .specials .specials-item {
-    width: 45%;
   }
 }
