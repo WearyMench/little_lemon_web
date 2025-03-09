@@ -23,7 +23,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 20px auto;
+  width: 70%;
 }
 
 .testimonial {
@@ -63,6 +64,10 @@
   .testimonial-container {
     padding: 10px;
     margin: 10px;
+  }
+
+  .testimonials {
+    width: 90%;
   }
 
   .testimonial {
