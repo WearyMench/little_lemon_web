@@ -45,6 +45,7 @@ const BookingForm = ({ onSubmit }) => {
           name="name"
           value={formData.name}
           onChange={handleChange}
+          autoComplete="name"
           required
         />
       </div>
@@ -57,6 +58,7 @@ const BookingForm = ({ onSubmit }) => {
           value={formData.email}
           onChange={handleChange}
           onBlur={handleBlur}
+          autoComplete="email"
           required
         />
         {error && <span className="error">{error}</span>}
