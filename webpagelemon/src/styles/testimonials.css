@@ -58,3 +58,28 @@
   color: #666;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .testimonial-container {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .testimonial {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimonial h3 {
+    font-size: 1rem;
+  }
+
+  .testimonial p {
+    font-size: 0.8rem;
+  }
+}
