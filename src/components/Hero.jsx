@@ -1,6 +1,6 @@
 import React from "react";
 import FoodImage from "../assets/restauranfood.jpg";
-import "../styles/Hero.css";
+import "../styles/hero.css";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
